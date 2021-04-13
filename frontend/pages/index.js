@@ -1,5 +1,5 @@
 import Page from '../components/Page';
 
-const HomePage = () => <Page>Hello!</Page>;
+const HomePage = () => <div>Hello!</div>;
 
 export default HomePage;
