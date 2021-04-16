@@ -29,7 +29,7 @@ const Form = styled.form`
   select {
     width: 100%;
     padding: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.4rem;
     border: 1px solid black;
     &:focus {
       outline: 0;
@@ -57,12 +57,7 @@ const Form = styled.form`
       height: 10px;
       content: '';
       display: block;
-      background-image: linear-gradient(
-        to right,
-        #ff3019 0%,
-        #e2b04a 50%,
-        #ff3019 100%
-      );
+      background-image: linear-gradient(to right, #ff3019 0%, #e2b04a 50%, #ff3019 100%);
     }
     &[aria-busy='true']::before {
       background-size: 50% auto;

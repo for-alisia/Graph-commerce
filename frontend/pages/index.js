@@ -1,3 +1,1 @@
-const HomePage = () => <div>Hello!</div>;
-
-export default HomePage;
+export { default } from './products';

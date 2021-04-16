@@ -19,7 +19,7 @@ const { withAuth } = createAuth({
   secretField: 'password',
   initFirstItem: {
     fields: ['name', 'email', 'password'],
-    //TODO: add in initial roles
+    // TODO: add in initial roles
   },
 });
 
